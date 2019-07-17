@@ -116,7 +116,7 @@ void readWordFromEEPROM(char* palabra1, int maximiliano) {
     if(palabra1[address]!='~'){
     palabra1[address] = readEEPROM(BASE_ADDRESS, address);  
     }else{
-      return;  //hfjimenez at utp edu dot co  IMPORTANTE!!!!!!
+      return; 
     }
   }
 }
